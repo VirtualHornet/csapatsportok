@@ -1,0 +1,90 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,121,116,1) 35%);
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+title{
+     color: #ffffff; 
+     font-family: 'Lato', sans-serif; 
+     font-size: 54px; font-weight: 300; 
+     line-height: 58px; 
+     margin: 0 0 58px; 
+}
+.meta-info { 
+    padding: 5px; 
+    overflow: hidden; }
+h1{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #588c7e;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: left;
+  }
+th {
+  background-color: #588c7e;
+  color: white;
+  }
+tr:nth-child(even) {background-color: white}
+tr:nth-child(odd) {  
+  background-color: whitesmoke};
+p{ 
+    color: navy;
+    text-indent: 30px;
+    text-transform: uppercase;
+}
+/*button{
+    width: 270px;
+    height: 80px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+} */
+ 
